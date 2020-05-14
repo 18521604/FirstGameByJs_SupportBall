@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The first game's David Tuan</title>
+    <style>
+        canvas{
+            border: 1px solid brown;
+        }
+        h1{
+            font-family: sans-serif;
+        }
+        #score{           
+            margin-left: 1385px;
+            margin-top: -500px;
+            color: red;
+        }
+        #numberScore{
+            color: aqua;
+            margin-left: 1430px;
+            margin-top: 50;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+            /* background-color: rgb(238, 255, 0); */
+            background-image: 
+                linear-gradient(rgba(44,62,80,0.4),rgba(44,62,80,0.8)),
+                url(https://zicxa.com/hinh-anh/wp-content/uploads/2019/07/T%E1%BB%95ng-h%E1%BB%A3p-h%C3%ACnh-%E1%BA%A3nh-anime-galaxy-phong-c%E1%BA%A3nh-%C4%91%E1%BA%B9p-nh%E1%BA%A5t-5-1.jpg);
+            background-repeat: none;
+            background-size: cover;
+            overflow: hidden;
+        }
+        canvas{
+            background-image: 
+                linear-gradient(rgba(44,62,80,0.4),rgba(44,62,80,0.8)),
+                url(https://zicxa.com/hinh-anh/wp-content/uploads/2019/07/T%E1%BB%95ng-h%E1%BB%A3p-h%C3%ACnh-%E1%BA%A3nh-anime-galaxy-phong-c%E1%BA%A3nh-%C4%91%E1%BA%B9p-nh%E1%BA%A5t-5-1.jpg);
+            background-repeat: none;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="game" width="1352" height="730"></canvas>
+    <h1 id="score">SCORE</h1>
+    <h1 id="numberScore">0</h1>
+    <script src="game.js"></script>
+</body>
+</html>
